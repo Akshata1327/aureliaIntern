@@ -1,0 +1,39 @@
+@mixin paragraph-styles($col, $fon) {
+    color: $col;
+    font-size:$fon;
+}
+.container{
+    background-color: aquamarine;
+    .header{
+        ul{
+            li{
+            display:inline;
+            margin: 0px;
+            background-color: black;
+            &:hover{
+                background-color:greenyellow;
+            }
+            a{
+            color: white;
+            }
+            }
+        }
+    }
+}
+
+.content{
+    .main1{
+        p{
+         //color: red;
+         //font-size: 12px;
+         @include paragraph-styles(red, 15px);
+    }
+    .main2{
+        p{
+           //color: greenyellow;
+           //font-size: 12px;
+           @include paragraph-styles(greenyellow, 20px);
+        }
+    }
+}
+}

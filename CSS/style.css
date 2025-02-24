@@ -1,0 +1,23 @@
+.container {
+  background-color: aquamarine;
+}
+.container .header ul li {
+  display: inline;
+  margin: 0px;
+  background-color: black;
+}
+.container .header ul li:hover {
+  background-color: greenyellow;
+}
+.container .header ul li a {
+  color: white;
+}
+
+.content .main1 p {
+  color: red;
+  font-size: 15px;
+}
+.content .main1 .main2 p {
+  color: greenyellow;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
